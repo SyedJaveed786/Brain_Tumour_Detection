@@ -22,6 +22,7 @@ Here, the code displays sample images for each tumor type using a grid of subplo
 
 ### STEP 4: EVALUATION:
 
+```
 Found 5712 images belonging to 4 classes.
 Found 1311 images belonging to 4 classes.
 Epoch 1/50
@@ -61,13 +62,14 @@ Output is truncated. View as a scrollable element or open in a text editor. Adju
 Test Loss: 0.13427262008190155
 Test Accuracy: 0.957812488079071
 41/41 [==============================] - 4s 84ms/step
-
+```
 ### STEP 5: CONFUSION MATRIX AND EXPLANATION:
 
 ![image](https://github.com/user-attachments/assets/22fb6f3c-1070-4642-8231-6024ae5f18bb)
 
 ### Calculate precision, recall, and F1-score from the confusion matrix:
 
+```
 Class: glioma
 Precision: 0.992831541218638
 Recall: 0.9233333333333333
@@ -87,5 +89,6 @@ Class: pituitary
 Precision: 0.9576547231270358
 Recall: 0.98
 F1-Score: 0.9686985172981878
+```
 
 ![image](https://github.com/user-attachments/assets/32f022ea-aefb-4ed9-adeb-7fd2938b6fd5)
